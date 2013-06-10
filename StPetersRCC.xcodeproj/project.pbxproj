@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1B66BB17657FF600C3F00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B66BA17657FF600C3F00D /* UIKit.framework */; };
+		EA1B66BD17657FF600C3F00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B66BC17657FF600C3F00D /* Foundation.framework */; };
+		EA1B66BF17657FF600C3F00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B66BE17657FF600C3F00D /* CoreGraphics.framework */; };
+		EA1B66C517657FF600C3F00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA1B66C317657FF600C3F00D /* InfoPlist.strings */; };
+		EA1B66C717657FF600C3F00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B66C617657FF600C3F00D /* main.m */; };
+		EA1B66CB17657FF600C3F00D /* rccAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B66CA17657FF600C3F00D /* rccAppDelegate.m */; };
+		EA1B66CD17657FF600C3F00D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1B66CC17657FF600C3F00D /* Default.png */; };
+		EA1B66CF17657FF600C3F00D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1B66CE17657FF600C3F00D /* Default@2x.png */; };
+		EA1B66D117657FF600C3F00D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA1B66D017657FF600C3F00D /* Default-568h@2x.png */; };
+		EA1B66D417657FF600C3F00D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1B66D217657FF600C3F00D /* MainStoryboard.storyboard */; };
+		EA1B66D717657FF600C3F00D /* rccViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B66D617657FF600C3F00D /* rccViewController.m */; };
+		EA1B66DF17657FF600C3F00D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B66DE17657FF600C3F00D /* SenTestingKit.framework */; };
+		EA1B66E017657FF600C3F00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B66BA17657FF600C3F00D /* UIKit.framework */; };
+		EA1B66E117657FF600C3F00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B66BC17657FF600C3F00D /* Foundation.framework */; };
+		EA1B66E917657FF600C3F00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA1B66E717657FF600C3F00D /* InfoPlist.strings */; };
+		EA1B66EC17657FF600C3F00D /* StPetersRCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B66EB17657FF600C3F00D /* StPetersRCCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1B66E217657FF600C3F00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1B66AF17657FF600C3F00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1B66B617657FF600C3F00D;
+			remoteInfo = StPetersRCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1B66B717657FF600C3F00D /* StPetersRCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StPetersRCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1B66BA17657FF600C3F00D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA1B66BC17657FF600C3F00D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA1B66BE17657FF600C3F00D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA1B66C217657FF600C3F00D /* StPetersRCC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StPetersRCC-Info.plist"; sourceTree = "<group>"; };
+		EA1B66C417657FF600C3F00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA1B66C617657FF600C3F00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1B66C817657FF600C3F00D /* StPetersRCC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StPetersRCC-Prefix.pch"; sourceTree = "<group>"; };
+		EA1B66C917657FF600C3F00D /* rccAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rccAppDelegate.h; sourceTree = "<group>"; };
+		EA1B66CA17657FF600C3F00D /* rccAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rccAppDelegate.m; sourceTree = "<group>"; };
+		EA1B66CC17657FF600C3F00D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA1B66CE17657FF600C3F00D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA1B66D017657FF600C3F00D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA1B66D317657FF600C3F00D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA1B66D517657FF600C3F00D /* rccViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rccViewController.h; sourceTree = "<group>"; };
+		EA1B66D617657FF600C3F00D /* rccViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rccViewController.m; sourceTree = "<group>"; };
+		EA1B66DD17657FF600C3F00D /* StPetersRCCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StPetersRCCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1B66DE17657FF600C3F00D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA1B66E617657FF600C3F00D /* StPetersRCCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StPetersRCCTests-Info.plist"; sourceTree = "<group>"; };
+		EA1B66E817657FF600C3F00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA1B66EA17657FF600C3F00D /* StPetersRCCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StPetersRCCTests.h; sourceTree = "<group>"; };
+		EA1B66EB17657FF600C3F00D /* StPetersRCCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StPetersRCCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1B66B417657FF600C3F00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B66BB17657FF600C3F00D /* UIKit.framework in Frameworks */,
+				EA1B66BD17657FF600C3F00D /* Foundation.framework in Frameworks */,
+				EA1B66BF17657FF600C3F00D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B66D917657FF600C3F00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B66DF17657FF600C3F00D /* SenTestingKit.framework in Frameworks */,
+				EA1B66E017657FF600C3F00D /* UIKit.framework in Frameworks */,
+				EA1B66E117657FF600C3F00D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1B66AE17657FF600C3F00D = {
+			isa = PBXGroup;
+			children = (
+				EA1B66C017657FF600C3F00D /* StPetersRCC */,
+				EA1B66E417657FF600C3F00D /* StPetersRCCTests */,
+				EA1B66B917657FF600C3F00D /* Frameworks */,
+				EA1B66B817657FF600C3F00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1B66B817657FF600C3F00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B66B717657FF600C3F00D /* StPetersRCC.app */,
+				EA1B66DD17657FF600C3F00D /* StPetersRCCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1B66B917657FF600C3F00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B66BA17657FF600C3F00D /* UIKit.framework */,
+				EA1B66BC17657FF600C3F00D /* Foundation.framework */,
+				EA1B66BE17657FF600C3F00D /* CoreGraphics.framework */,
+				EA1B66DE17657FF600C3F00D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1B66C017657FF600C3F00D /* StPetersRCC */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B66C917657FF600C3F00D /* rccAppDelegate.h */,
+				EA1B66CA17657FF600C3F00D /* rccAppDelegate.m */,
+				EA1B66D217657FF600C3F00D /* MainStoryboard.storyboard */,
+				EA1B66D517657FF600C3F00D /* rccViewController.h */,
+				EA1B66D617657FF600C3F00D /* rccViewController.m */,
+				EA1B66C117657FF600C3F00D /* Supporting Files */,
+			);
+			path = StPetersRCC;
+			sourceTree = "<group>";
+		};
+		EA1B66C117657FF600C3F00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B66C217657FF600C3F00D /* StPetersRCC-Info.plist */,
+				EA1B66C317657FF600C3F00D /* InfoPlist.strings */,
+				EA1B66C617657FF600C3F00D /* main.m */,
+				EA1B66C817657FF600C3F00D /* StPetersRCC-Prefix.pch */,
+				EA1B66CC17657FF600C3F00D /* Default.png */,
+				EA1B66CE17657FF600C3F00D /* Default@2x.png */,
+				EA1B66D017657FF600C3F00D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA1B66E417657FF600C3F00D /* StPetersRCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B66EA17657FF600C3F00D /* StPetersRCCTests.h */,
+				EA1B66EB17657FF600C3F00D /* StPetersRCCTests.m */,
+				EA1B66E517657FF600C3F00D /* Supporting Files */,
+			);
+			path = StPetersRCCTests;
+			sourceTree = "<group>";
+		};
+		EA1B66E517657FF600C3F00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1B66E617657FF600C3F00D /* StPetersRCCTests-Info.plist */,
+				EA1B66E717657FF600C3F00D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1B66B617657FF600C3F00D /* StPetersRCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1B66EF17657FF600C3F00D /* Build configuration list for PBXNativeTarget "StPetersRCC" */;
+			buildPhases = (
+				EA1B66B317657FF600C3F00D /* Sources */,
+				EA1B66B417657FF600C3F00D /* Frameworks */,
+				EA1B66B517657FF600C3F00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StPetersRCC;
+			productName = StPetersRCC;
+			productReference = EA1B66B717657FF600C3F00D /* StPetersRCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1B66DC17657FF600C3F00D /* StPetersRCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1B66F217657FF600C3F00D /* Build configuration list for PBXNativeTarget "StPetersRCCTests" */;
+			buildPhases = (
+				EA1B66D817657FF600C3F00D /* Sources */,
+				EA1B66D917657FF600C3F00D /* Frameworks */,
+				EA1B66DA17657FF600C3F00D /* Resources */,
+				EA1B66DB17657FF600C3F00D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1B66E317657FF600C3F00D /* PBXTargetDependency */,
+			);
+			name = StPetersRCCTests;
+			productName = StPetersRCCTests;
+			productReference = EA1B66DD17657FF600C3F00D /* StPetersRCCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1B66AF17657FF600C3F00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = rcc;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mark Roxberry";
+			};
+			buildConfigurationList = EA1B66B217657FF600C3F00D /* Build configuration list for PBXProject "StPetersRCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA1B66AE17657FF600C3F00D;
+			productRefGroup = EA1B66B817657FF600C3F00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1B66B617657FF600C3F00D /* StPetersRCC */,
+				EA1B66DC17657FF600C3F00D /* StPetersRCCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1B66B517657FF600C3F00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B66C517657FF600C3F00D /* InfoPlist.strings in Resources */,
+				EA1B66CD17657FF600C3F00D /* Default.png in Resources */,
+				EA1B66CF17657FF600C3F00D /* Default@2x.png in Resources */,
+				EA1B66D117657FF600C3F00D /* Default-568h@2x.png in Resources */,
+				EA1B66D417657FF600C3F00D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B66DA17657FF600C3F00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B66E917657FF600C3F00D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA1B66DB17657FF600C3F00D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1B66B317657FF600C3F00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B66C717657FF600C3F00D /* main.m in Sources */,
+				EA1B66CB17657FF600C3F00D /* rccAppDelegate.m in Sources */,
+				EA1B66D717657FF600C3F00D /* rccViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1B66D817657FF600C3F00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1B66EC17657FF600C3F00D /* StPetersRCCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1B66E317657FF600C3F00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1B66B617657FF600C3F00D /* StPetersRCC */;
+			targetProxy = EA1B66E217657FF600C3F00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1B66C317657FF600C3F00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1B66C417657FF600C3F00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA1B66D217657FF600C3F00D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1B66D317657FF600C3F00D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1B66E717657FF600C3F00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1B66E817657FF600C3F00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1B66ED17657FF600C3F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA1B66EE17657FF600C3F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1B66F017657FF600C3F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StPetersRCC/StPetersRCC-Prefix.pch";
+				INFOPLIST_FILE = "StPetersRCC/StPetersRCC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA1B66F117657FF600C3F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StPetersRCC/StPetersRCC-Prefix.pch";
+				INFOPLIST_FILE = "StPetersRCC/StPetersRCC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA1B66F317657FF600C3F00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StPetersRCC.app/StPetersRCC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StPetersRCC/StPetersRCC-Prefix.pch";
+				INFOPLIST_FILE = "StPetersRCCTests/StPetersRCCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EA1B66F417657FF600C3F00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StPetersRCC.app/StPetersRCC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StPetersRCC/StPetersRCC-Prefix.pch";
+				INFOPLIST_FILE = "StPetersRCCTests/StPetersRCCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1B66B217657FF600C3F00D /* Build configuration list for PBXProject "StPetersRCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B66ED17657FF600C3F00D /* Debug */,
+				EA1B66EE17657FF600C3F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1B66EF17657FF600C3F00D /* Build configuration list for PBXNativeTarget "StPetersRCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B66F017657FF600C3F00D /* Debug */,
+				EA1B66F117657FF600C3F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1B66F217657FF600C3F00D /* Build configuration list for PBXNativeTarget "StPetersRCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1B66F317657FF600C3F00D /* Debug */,
+				EA1B66F417657FF600C3F00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1B66AF17657FF600C3F00D /* Project object */;
+}
