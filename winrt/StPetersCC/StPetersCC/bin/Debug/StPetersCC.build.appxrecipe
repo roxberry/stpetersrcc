@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SPRO-1</Machine>
+    <WindowsUser>Mark</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\hub\hub.css">
+      <PackagePath>pages\hub\hub.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\section\section.css">
+      <PackagePath>pages\section\section.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\item\item.css">
+      <PackagePath>pages\item\item.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\gray.png">
+      <PackagePath>images\gray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\hub\hub.js">
+      <PackagePath>pages\hub\hub.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\section\section.js">
+      <PackagePath>pages\section\section.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\item\item.js">
+      <PackagePath>pages\item\item.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\hub\hub.html">
+      <PackagePath>pages\hub\hub.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\section\section.html">
+      <PackagePath>pages\section\section.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\item\item.html">
+      <PackagePath>pages\item\item.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\">
+      <Name>Microsoft.WinJS.2.0.Preview</Name>
+      <Version>1.0.9431.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0.Preview, MinVersion=1.0.9431.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0.Preview\1.0\Microsoft.WinJS.2.0.Preview.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

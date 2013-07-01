@@ -1,0 +1,15 @@
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\resources.pri
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\AppxManifest.xml
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\StPetersCC.build.appxrecipe
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\priconfig.xml
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\priconfig.xml.intermediate
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\layout.resfiles
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\layout.resfiles.intermediate
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\resources.resfiles
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\resources.resfiles.intermediate
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\pri.resfiles
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\pri.resfiles.intermediate
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\qualifiers.txt
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\qualifiers.txt.intermediate
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bld\Debug\ProjectArchitectures.txt
