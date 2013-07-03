@@ -1,0 +1,6 @@
+.slideshow div {
+	_position: absolute;
+}
+.slideshow div div {
+	_position: static;
+}

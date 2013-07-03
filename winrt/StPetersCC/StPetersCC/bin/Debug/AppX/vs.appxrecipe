@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-01T05:21:08.400</Modified>
+      <Modified>2013-07-01T05:56:47.894</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\hub\hub.css">
       <PackagePath>pages\hub\hub.css</PackagePath>
-      <Modified>2013-07-01T05:14:54.104</Modified>
+      <Modified>2013-07-01T05:58:24.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\section\section.css">
       <PackagePath>pages\section\section.css</PackagePath>
@@ -35,6 +35,10 @@
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\item\item.css">
       <PackagePath>pages\item\item.css</PackagePath>
       <Modified>2013-07-01T05:14:54.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\Front_Papal_CoatOfArms.jpg">
+      <PackagePath>images\Front_Papal_CoatOfArms.jpg</PackagePath>
+      <Modified>2013-07-01T05:41:19.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -86,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\hub\hub.html">
       <PackagePath>pages\hub\hub.html</PackagePath>
-      <Modified>2013-07-01T05:14:54.119</Modified>
+      <Modified>2013-07-01T05:58:27.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\section\section.html">
       <PackagePath>pages\section\section.html</PackagePath>
@@ -102,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-07-01T05:21:08.164</Modified>
+      <Modified>2013-07-01T05:56:47.720</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

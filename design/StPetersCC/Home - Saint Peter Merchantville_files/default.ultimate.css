@@ -1,0 +1,58 @@
+@import url( default.css );
+ul.dropdown a {
+	padding: 4px; display: block;
+}
+ul.dropdown span {
+	padding: 4px; display: block;
+}
+ul.dropdown li {
+	padding: 0px; z-index: 1000;
+}
+ul.dropdown ul a {
+	padding: 8px;
+}
+ul.dropdown ul span {
+	padding: 8px;
+}
+ul.dropdown *.dir {
+	padding: 5px 30px;
+}
+ul.dropdown ul *.dir {
+	padding: 8px 30px 8px 8px;
+}
+ul.dropdown ul a {
+	width: 133px;
+}
+ul.dropdown ul a.dir {
+	width: 111px;
+}
+ul.dropdown *.open {
+	background-color: rgb(61, 61, 61);
+}
+ul.dropdown ul *.open {
+	color: rgb(255, 255, 255); background-image: url("images/comnav-arrowover.png"); background-color: rgb(76, 76, 76);
+}
+ul.dropdown ul ul *.open {
+	color: rgb(255, 255, 255); background-image: url("images/comnav-arrowover2.png"); background-color: rgb(89, 89, 89);
+}
+ul.dropdown a.open:hover {
+	color: rgb(255, 255, 255); background-color: rgb(70, 152, 202);
+}
+ul.dropdown ul a.open:hover {
+	color: rgb(255, 255, 255); background-image: url("images/comnav-arrowon.png");
+}
+ul.dropdown li:hover > *.dir {
+	background-color: rgb(61, 61, 61);
+}
+ul.dropdown ul li:hover > *.dir {
+	background-image: url("images/comnav-arrowover.png"); background-color: rgb(76, 76, 76);
+}
+ul.dropdown ul ul li:hover > *.dir {
+	color: rgb(255, 255, 255); background-image: url("images/comnav-arrowover2.png"); background-color: rgb(89, 89, 89);
+}
+ul.dropdown li:hover > a.dir:hover {
+	color: rgb(255, 255, 255); background-color: rgb(70, 152, 202);
+}
+ul.dropdown ul li:hover > a.dir:hover {
+	color: rgb(255, 255, 255); background-image: url("images/comnav-arrowon.png");
+}

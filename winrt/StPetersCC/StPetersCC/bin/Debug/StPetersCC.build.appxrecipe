@@ -25,6 +25,9 @@
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\pages\item\item.css">
       <PackagePath>pages\item\item.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\Front_Papal_CoatOfArms.jpg">
+      <PackagePath>images\Front_Papal_CoatOfArms.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Workspaces\GitHub\stpetersrcc\winrt\StPetersCC\StPetersCC\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
